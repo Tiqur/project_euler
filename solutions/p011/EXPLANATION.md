@@ -30,7 +30,7 @@ The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
 What is the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid?
 
 # Solution
-The question was interestingly worded ( "in the same direction (up, down, left, right, or diagonally)" ) but luckily due to the commutative property, we only need to check in 3 directions ( horizontal, vertical, diagonal ).  Other than that, it was again, pretty straightforward:  Just brute force check every combination for horizontal, vertical, and both diagonals and get the largest product.
+The question was interestingly worded ( "in the same direction (up, down, left, right, or diagonally)" ) but luckily due to the commutative property, we only need to check in 4 directions ( horizontal, vertical, (both)diagonals ) instead of 8.  Other than that, it was again, pretty straightforward:  Just brute force check every combination for horizontal, vertical, and both diagonals and get the largest product.
 
 ```c
   // Horizontal
