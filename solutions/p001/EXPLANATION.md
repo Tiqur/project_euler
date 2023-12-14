@@ -32,6 +32,7 @@ Alternatively, if this was required to be dynamic ( lots of factors ), I would p
 
 # Optimized solution
 This approach stems from a purely mathmatical standpoint. At first glance we can tell that the numbers we need to sum form an arithmetic series where the first term is A or B and the last term is the greatest multiple of A or B **under** x (the input).  
+O(1)
 
 If the input is 50
 ```
