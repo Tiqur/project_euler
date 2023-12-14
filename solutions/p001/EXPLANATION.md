@@ -61,7 +61,7 @@ int last_term_b = (x/first_term_b)*first_term_b;
 ```
 
 3. Now that we have the highest and lowest terms of each progression, we can find their corresponding sums.  To do this we can plug it into this equation:
-(n = length of series)
+(n = length of progression)
 $$S = \[ \frac{a_1+a_n}{2} \]\cdot n$$
 ```c
 // Get the arithmetic series (sum) of each progression
