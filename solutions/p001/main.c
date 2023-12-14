@@ -18,16 +18,16 @@ int main(void) {
   int last_term_a = (x/first_term_a)*first_term_a;
   int last_term_b = (x/first_term_b)*first_term_b;
 
-  // Get length of each series (integer division is intentional)
-  int series_len_a = x/first_term_a;
-  int series_len_b = x/first_term_b;
+  // Get length of each progression (integer division is intentional)
+  int progression_len_a = x/first_term_a;
+  int progression_len_b = x/first_term_b;
 
-  // Get the sum of each series
-  int series_sum_a = ((first_term_a + last_term_a)/2*series_len_a);
-  int series_sum_b = ((first_term_b + last_term_b)/2)*series_len_b;
+  // Get the arithmetic series (sum) of each progression
+  int series_a = ((first_term_a + last_term_a)/2*progression_len_a);
+  int series_b = ((first_term_b + last_term_b)/2)*progression_len_b;
 
-  // Total sum of first_term_aLL multiples of first_term_a and first_term_b that are less than INPUT
-  int total_sum = series_sum_a + series_sum_b;
+  // Total sum of ALL multiples of first_term_a and first_term_b that are less than INPUT
+  int total_sum = series_a + series_b;
 
   // Since the above sum includes overlapping multiples, we have to account for that and subtract it:
   // Least common multiple
